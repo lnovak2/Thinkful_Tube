@@ -1,0 +1,17 @@
+
+#display{
+	margin-top: 10px;
+}
+
+.text{
+	padding: 10px;
+	display: block;
+}
+
+.tab{
+	display: inline-block;
+	margin: 5px;
+	text-align: center;
+	border: 1px solid black;
+	width: 320px;
+}
