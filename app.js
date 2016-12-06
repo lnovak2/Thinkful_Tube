@@ -3,7 +3,7 @@ var youtube_base_url = 'https://www.googleapis.com/youtube/v3/search';
 function getDataFromApi(searchTerm, callback){
 	var query = {
 		part: 'snippet',
-		key: 'AIzaSyD82nd7la4F5bRrYQfOyiDYrBdSay9HXV4',
+		key: youtubeKey,
 		q: searchTerm,
 		type: 'video',
 		r: 'json'
